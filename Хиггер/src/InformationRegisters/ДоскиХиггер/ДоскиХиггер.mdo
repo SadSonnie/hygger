@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dce6caa1-567d-4738-9d7b-4e2b306e2951">
+  <producedTypes>
+    <selectionType typeId="ef1fddd2-5a9e-4f82-8d9c-9c9bba2f7950" valueTypeId="d733c6a2-680f-4c8e-8f20-80499b4205c2"/>
+    <listType typeId="7cabecf2-5327-42d8-94f9-a63dae7573e9" valueTypeId="47b2aeb5-b643-40af-8339-025f4f79a403"/>
+    <managerType typeId="e1e359a1-4f33-403a-b91f-1059a88e8c57" valueTypeId="390f3eae-2cb5-45e1-a53d-434577669cf9"/>
+    <recordSetType typeId="2504ac44-8547-449f-a777-95a9a1a4f3b5" valueTypeId="226d49a2-421d-4430-9a66-d11d3ee5b829"/>
+    <recordKeyType typeId="35a93547-5891-40c6-9f92-944fac9fba42" valueTypeId="7aa32eec-18d6-4fb7-b465-7fd45c7ea2a7"/>
+    <recordType typeId="35a8604f-ad4d-4de5-8091-2ab1ff82dac6" valueTypeId="11540c21-ff9e-4307-b76c-3a1d165ca77b"/>
+    <recordManagerType typeId="e5d1f783-7577-4e73-a85e-e5a948dfacae" valueTypeId="0ba10afe-6144-4b72-acdc-7bf478dd99fb"/>
+  </producedTypes>
+  <name>ДоскиХиггер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доски хиггер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="20b867a0-38d1-45d5-9cbe-37965654538e">
+    <name>ИмяДоски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя доски</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b8e48114-2063-44e0-aa3b-710f5955af69">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

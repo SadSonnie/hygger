@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da8cf2b2-e975-4493-9afe-3fb6ca143a49">
+  <name>Хиггер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хиггер</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="aebaaf0c-39cc-42ba-9515-5a25f03a524c"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a779359e-e95b-4ef6-8da7-ffc7c52a85d8"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a5b72417-b83c-4069-aa98-fd709039edf3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bdda3797-565a-4276-930c-3c11058d5a8b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6983d984-3a90-4faf-b7e8-6cc9fa35aec7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="27972d01-fb29-4ba3-a35c-43f67186e887"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4ddf644f-8c2e-41f5-a439-433d93547d62"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="25b05c75-3c2c-45a8-9713-8434a8dfa1a1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.main</subsystems>
+  <dataProcessors>DataProcessor.ХиггерСтафф</dataProcessors>
+  <informationRegisters>InformationRegister.ДоскиХиггер</informationRegisters>
+  <informationRegisters>InformationRegister.УчастникиХиггер</informationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6567b936-53ff-4207-a7d2-6e534c13d124">
+  <producedTypes>
+    <objectType typeId="6c5e0ed0-f584-4f8b-b6ba-37a452c78c0f" valueTypeId="29628078-49cf-4d7a-8869-844dba878d0c"/>
+    <managerType typeId="61bdea73-d1ba-449e-83bc-79921a10d5c9" valueTypeId="f742192e-0b97-4966-850f-e09770319fda"/>
+  </producedTypes>
+  <name>ХиггерСтафф</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хиггер стафф</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ХиггерСтафф.Form.Форма</defaultForm>
+  <forms uuid="db039c59-1c22-4451-aade-839d78228c39">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fcac991-b3bd-4156-a369-8491106f7925">
+  <producedTypes>
+    <selectionType typeId="108186b7-9498-49fd-80d5-8843b2e25a73" valueTypeId="b43d32e8-3d76-4a87-ad28-7ededac784a9"/>
+    <listType typeId="b1c7b859-4480-4c17-b4a5-31a38547b242" valueTypeId="b150e4a1-4590-4629-a72d-6dbf1202faac"/>
+    <managerType typeId="6094a6d1-a48d-486f-981c-282a5bd90e7a" valueTypeId="0c309caa-8f88-4404-b28e-89b3205c85f8"/>
+    <recordSetType typeId="fc8004ba-4696-4de5-8e3f-f3e8cee83c77" valueTypeId="766191c1-1a2e-43eb-b029-5b7bdb5f2db9"/>
+    <recordKeyType typeId="b8cda7fa-6310-4edb-9cc1-448576060607" valueTypeId="14bab94f-bb97-4f3a-8c68-f723d917fd0e"/>
+    <recordType typeId="22b42ed8-207a-44ff-b480-de5fe89f40d2" valueTypeId="40f73321-c900-4fba-bad8-a32720532bbb"/>
+    <recordManagerType typeId="e10ad936-761a-4f99-b76f-a84ff61b0073" valueTypeId="aabf2490-d51c-4121-aef1-90d9509fbe16"/>
+  </producedTypes>
+  <name>УчастникиХиггер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участники хиггер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="ad4f4067-02be-4e55-88fd-c4dbed55cafb">
+    <name>ИмяУчастника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя участника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3eaca697-c79c-4cd9-aa68-6c898c7851d9">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
