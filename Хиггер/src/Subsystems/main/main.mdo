@@ -10,4 +10,6 @@
   <content>DataProcessor.ХиггерСтафф</content>
   <content>InformationRegister.ДоскиХиггер</content>
   <content>InformationRegister.УчастникиХиггер</content>
+  <content>Constant.КомпаниИД</content>
+  <content>Constant.АксесТокен</content>
 </mdclass:Subsystem>

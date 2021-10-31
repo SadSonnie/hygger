@@ -35,6 +35,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.main</subsystems>
+  <commonModules>CommonModule.main</commonModules>
+  <constants>Constant.КомпаниИД</constants>
+  <constants>Constant.АксесТокен</constants>
   <dataProcessors>DataProcessor.ХиггерСтафф</dataProcessors>
   <informationRegisters>InformationRegister.ДоскиХиггер</informationRegisters>
   <informationRegisters>InformationRegister.УчастникиХиггер</informationRegisters>
